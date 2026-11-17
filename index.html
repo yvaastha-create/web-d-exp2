@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+
+        <h1>Portfolio</h1>
+
+        <label>Name:</label>
+        <input type="text" required>
+
+        <label>Father's Name:</label>
+        <input type="text">
+
+        <label>Mother's Name:</label>
+        <input type="text">
+
+        <label>Country:</label>
+        <select>
+            <option>Select Country</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+        </select>
+
+        <label>Date of Birth:</label>
+        <input type="date">
+
+        <label>Gender:</label>
+        <div class="options">
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+        </div>
+
+        <h3>Education Qualification</h3>
+        <small>Enter your education details in the table below.</small>
+
+        <table>
+            <tr>
+                <th>S. No.</th>
+                <th>Standard</th>
+                <th>Board / University</th>
+                <th>Passing Year</th>
+                <th>Percentage</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+
+        <h3>Selected Course</h3>
+
+        <div class="options">
+            <input type="radio" name="course"> B.Tech
+            <input type="radio" name="course"> M.Tech
+        </div>
+
+        <h3>Declaration</h3>
+
+        <input type="checkbox" required>
+        I declare that the information given above is correct.
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

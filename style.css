@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial;
+    background: #f1f4fa;
+    padding: 15px;
+    color: #333;
+}
+
+form {
+    background: white;
+    max-width: 850px;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #294b70;
+}
+
+h3 {
+    color: #294b70;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px;
+    margin: 7px 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.options {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 7px;
+    text-align: center;
+}
+
+th {
+    background: #e7edf7;
+}
+
+td input {
+    width: 95%;
+    box-sizing: border-box;
+    padding: 7px;
+    border: 1px solid #ddd;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    background: #294b70;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:last-child {
+    background: #687586;
+}
